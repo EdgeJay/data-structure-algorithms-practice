@@ -1,0 +1,55 @@
+{
+  "name": "data-structure-algorithms-practice",
+  "version": "0.1.0",
+  "description": "Collection of data structure and algorithms practices in JS/TS",
+  "main": "src/index.ts",
+  "scripts": {
+    "lint": "eslint \"./src/**/*.ts\"",
+    "start": "ts-node ./src/index.ts",
+    "test": "tsc && ava --verbose --config ./ava.config.js",
+    "build": "tsc"
+  },
+  "engines": {
+    "node": "12.16.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EdgeJay/data-structure-algorithms-practice.git"
+  },
+  "keywords": [
+    "data",
+    "structures",
+    "algorithms",
+    "javascript",
+    "typescript"
+  ],
+  "author": "Wu Huijie",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/EdgeJay/data-structure-algorithms-practice/issues"
+  },
+  "homepage": "https://github.com/EdgeJay/data-structure-algorithms-practice#readme",
+  "dependencies": {
+    "esm": "^3.2.25"
+  },
+  "devDependencies": {
+    "@types/sinon": "^7.5.2",
+    "@typescript-eslint/eslint-plugin": "^2.23.0",
+    "@typescript-eslint/parser": "^2.23.0",
+    "ava": "^3.5.0",
+    "concurrently": "^5.1.0",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb": "^18.1.0",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-friendly-formatter": "^4.0.1",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-react": "^7.19.0",
+    "eslint-plugin-react-hooks": "^3.0.0",
+    "prettier": "^1.19.1",
+    "sinon": "^9.0.1",
+    "ts-node": "^8.8.1",
+    "typescript": "^3.8.3"
+  }
+}
