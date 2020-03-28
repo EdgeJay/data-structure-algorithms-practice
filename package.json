@@ -30,6 +30,7 @@
   },
   "homepage": "https://github.com/EdgeJay/data-structure-algorithms-practice#readme",
   "dependencies": {
+    "chalk": "^3.0.0",
     "esm": "^3.2.25"
   },
   "devDependencies": {
