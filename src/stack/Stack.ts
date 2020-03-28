@@ -16,6 +16,10 @@ class Stack<T> {
     return this._list.pop();
   }
 
+  peek(): Node<T> | null {
+    return this._list.tail;
+  }
+
   count(): number {
     return this._list.count;
   }

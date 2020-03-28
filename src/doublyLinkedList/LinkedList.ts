@@ -95,10 +95,15 @@ class LinkedList<T> {
         const tmp = this.tail;
 
         this._tail = this.tail.previous;
-        this.tail.next = null;
 
-        tmp.previous = null;
-        tmp.next = null;
+        if (this.tail) {
+          this.tail.next = null;
+        }
+
+        if (tmp) {
+          tmp.previous = null;
+          tmp.next = null;
+        }
       }
       this._count -= 1;
     }
